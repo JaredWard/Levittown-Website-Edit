@@ -1,0 +1,592 @@
+body {
+	color: #cccccc;	
+	background-color: #222;
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+    margin: 0;
+	padding: 0;
+	
+}
+
+a, a:visited {	
+	color: #b80000;
+	background: rgba(0, 0, 0, 0);
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+	color: #0071b8;	
+	text-decoration: underline;
+}
+
+.bannerItem {
+    padding-left: 10px;
+    padding-top: 0px;    
+    -background-image: url('/images/homepage/banners/banner-background.jpg');
+    background-repeat: no-repeat;
+}
+
+.bannerItem a {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #20af0e;    
+}
+
+.bannerItem a img
+{
+    height: 134px;
+    margin: 3px 5px 0px 10px; 
+    float: left;   
+}
+
+.bannerDescription
+{
+    margin: 5px 0px 0px 0px;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 16px;	
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	font-size: 14px;	
+}
+
+h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;	
+	font-size: 11px;
+	font-weight: bold;
+}
+
+td {
+    vertical-align: top;    
+    padding: 0px;
+     
+}
+
+select {
+	color: white;
+	background-color: #0054a4;
+	font-size: 9pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #222;
+}
+
+img {
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin-top: 8pt;
+}
+
+li {
+	margin-bottom: 10px;
+	margin-left: -20px;
+	color: #000000;
+}
+
+ol li {
+	margin-left: 0px;
+}
+
+hr {
+	color: #C9C9C9;
+	background: transparent;
+	height: 1px;
+}
+
+legend {
+	color: black;
+	background-color: transparent;
+	padding-right: 5px;
+	font-size: 11pt;
+	font-weight: bold;
+	
+}
+
+.input {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 2px;            
+    border-top-color: #848284;
+    border-left-color: #848284;
+    border-right-color: #d6d3ce;
+    border-bottom-color: #d6d3ce;
+    font-size: 9pt;
+}
+
+.button  {
+	font-size: 8pt;
+}
+
+
+.header {
+    height: 87px;
+    
+    
+}
+
+.navigation
+{
+    padding: 0px; 
+    margin: 0px 0px 0px 0px; 
+    -background-color: #ebebeb; 
+    border-color: #E8E8E8; 
+    border-style: solid;
+    border-width: 1px; 
+    border-top-style: none; 
+    border-bottom-style: none; 
+    border-left-style: none; 
+    border-right-style: solid;    
+}
+
+.navItem {
+  margin-bottom: 23px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.navItem .navItemSelected {
+  color: #C10000;
+}
+
+
+.navItem img:hover {
+    border-bottom-style: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #0071B8;
+}
+
+.new 
+{
+    font-weight: bold;
+    color: #008000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#SchoolsPlaceHolder 
+{
+    font-size: 8pt;
+    font-weight: normal;
+    width: 780px;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    z-index: 9999;
+    margin-left: 130px; 
+    margin-top: -13px;
+    background-color: #FBFBFB;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.search {
+    height: 87px; 
+    width: 503px; 
+    display: inline;
+
+}
+
+.searchBox {
+    width: 380px;
+    height: 26px;
+    border-style: solid;
+    border-color: #e7e7e7;
+    border-width: 3px;
+    font-size: 14pt;
+    background-color: Transparent;
+    margin-right: 10px;
+}
+
+
+.content {
+    margin-top: 40px;
+
+}
+
+.districtNews {    
+    border-style: none;
+    border-color: #e1e1e1;
+    border-width: 2px;
+}
+
+table 
+{
+    width: 100%;
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing:0; 
+    border-collapse:collapse; 
+}
+
+
+.title {
+    font-size: 12pt;
+    color: #7d7d7d;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.littleTitle {
+    font-size: 11pt;
+    color: #7d7d7d;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.subject  {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.author, .publishedDate {    
+    font-style: italic;
+}
+
+.sectionBox {
+
+    width: 133px; 
+    float: left;
+    margin-bottom: 10px; 
+    padding: 0px 10px 10px 10px; 
+    border-color: #e5e5e5; 
+    border-width: 1px;
+    border-style: none solid none none;
+
+}
+
+.sectionBoxLast {
+
+    width: 133px; 
+    float: left;
+    margin-bottom: 10px; 
+    padding: 0px 10px 10px 10px; 
+    border-color: #e5e5e5; 
+    border-width: 1px;
+    border-style: none none none none;
+ 
+}
+
+
+.rssItem {
+    margin-bottom: 20px;
+}
+
+.rssItem .title {
+    font-size: 10pt;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.rssItem .description {
+    font-size: 8pt;
+}
+
+.rssItem .date {
+    color: Gray;
+    font-style: italic;
+    font-size: 8pt;
+}
+
+
+.footer, .footer a, .footer a:hover, .footer a:visited {
+    font-size: 10px; 
+    color: #ffffff; 
+    padding: 5px; 
+}
+
+.footerBar {
+    background-color: #0071b8; 
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.pageTools {
+    padding: 0px;    
+    margin: 0px;
+}
+
+.imageCaption {
+	font-size: 7pt; 
+	font-style: italic;
+	color: gray; 
+	background: transparent;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+
+.darkbackground {
+	background-color: #eeeeee;
+}
+
+.schoolDescription {
+	color: black;
+	background-color: #003174;
+	border: none;
+	border-width: 1px;
+	border-color: #3e658c;
+}
+
+.schoolDescription .title {
+	color: white;
+	background-color: transparent;
+}
+
+.schoolDescription .address {
+	font-weight: normal;
+	font-size: 8pt;
+}
+
+.schoolDescription .type {
+	font-weight: bold;
+}
+
+.schoolDescription .thumbnail img {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.facultybox {
+
+    float: left;
+    width: 254px;
+    
+    border-style: none;
+    border-color: #cccccc;
+    border-width: 1px;
+    margin-bottom: 15px;
+    
+}
+
+.weatherModule a {
+	color: blue;
+	background: transparent;
+}
+
+.debugInfo {
+	color: black;
+	background-color: #EEE9A2;
+}
+
+.debugInfo a {
+	color: blue;
+	background: transparent;
+}
+
+.successfulMessage {
+	padding: 5px;
+	font-weight: bold;
+	color: green;
+	background-color: #98d1b0;
+	border-color: #58826a;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.errorMessage {
+	font-weight: bold;
+	color: red;
+	background: transparent;
+}
+
+.infobox {
+	float: right;
+	width: 152px;
+	background-color: transparent;
+	color: black;
+	border-style: none;
+	border-left-style:  dotted;
+	border-width: 1px;
+	border-color: #e8e8e8;
+	padding: 5px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+.infobox .title {
+	color: #000000;
+	font-weight: bold;
+    font-size: 12pt;
+
+}
+
+.infobox a {
+	font-weight: normal;
+}
+
+.sidebar {
+	color: black;	
+	-background-color: #ebebeb;	
+	font-weight: normal;    
+    border-color: #E8E8E8;
+    border-style: none none none solid;
+    border-width: 1px;
+}
+
+
+
+.sidebar a {
+	font-weight: normal;
+}
+
+
+
+.boilerplate {
+	font-size: 8pt;
+	color: gray;
+	font-style: italic;
+}
+
+.required {
+	font-weight: bold;
+	color: red;
+}
+
+
+/* This is for Photo Galleries!! */
+.gallery {
+	
+	 float: left;
+	 margin-left: 0px;
+	 margin-right: 4px; 
+	 margin-bottom: 5px;
+	 border: 0px solid black;
+	 background: transparent;
+	 width: 253px; 
+	 height: 169px;
+	 text-align: left;	 
+}
+
+.gallery .galleryThumbnail {
+	padding: 0px;
+	margin: 0px;
+	-border: 5px solid #eaeaea; 
+	width: 253px;
+	height: 169px;
+}
+
+.gallery .caption {
+    font-weight: bold;
+    margin-top: 5px;
+    position: relative;    
+    top: -30px;
+    padding: 5px;
+    font-size: 10pt;
+    color: White;
+    background-image: url('/images/black-50-percent-opacity.png');
+    background-repeat: repeat;        
+}
+
+.imageThumbnail {
+	padding: 0px;
+	margin: 1px;
+	border-style: solid;
+	border-color: white; 
+	border-width: 0px; 	
+}
+
+/*------------------*/
+
+.pluginPlaceHolder {
+    width: 115px;
+    margin: auto;
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: italic;
+    color: gray;
+    background: transparent; 
+    margin-bottom: 20px;
+}
+
+#pscroller {
+  width: 750px;
+  height: 15px;
+  border: 0px solid black;
+  padding: 0px;
+  color: #0054A4;
+}
+
+.dataTable {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.dataTable td {
+    padding: 5px;
+    border-bottom: 1px solid #bcbcbc;   
+    background-color: #eeeeee;  
+    vertical-align: top;
+    
+}
+
+.dataTable th {
+    padding: 5px;
+    color: black;
+    font-weight: bold;    
+    text-align: left;
+    border-bottom: 1px solid #bcbcbc;
+    background-color: transparent;
+}
+
+.dataTable tr.alt td {
+    background-color: #e0e3e4;
+}
+
+.clearBox {
+    background-color: transparent;
+    padding: 10px; padding-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+}
+
+.redBox {
+    background-color: #f9d0d0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.yellowBox {
+    background-color: #222;
+    padding: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #222; /*#0071B8;*/ 
+    border-top: 1px solid #222; /* #0071B8;*/
+}
+
+.greenBox {
+    background-color: #ddedda;   
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blueBox {
+    background-color: #5b8ab2;   
+    padding: 10px;
+    margin-bottom: 10px;
+}
